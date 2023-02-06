@@ -1,0 +1,63 @@
+nav{
+    position: relative;
+    padding-left: 5px;
+    top:1;
+    left:0;
+    width: 100%;
+    z-index: 1;
+    display: inline;
+}
+
+nav ul:after{
+    content:"";
+    display: block;
+    clear: both;
+    float:right;
+}
+
+nav li{
+    list-style-type: none;
+    margin: 0 10px;
+    float:right;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wrapper img {
+    float: right;
+    margin: 10px;
+}
+
+.wrapper:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+article, aside{
+    float: left;
+    width:46%;
+    padding:1%;
+    margin:1%;
+}
+
+main:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.services{ 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px; 
+}
+
+.service{
+  padding: 10px;
+  font-size: 10px;
+  text-align: center;
+}
